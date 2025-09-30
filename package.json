@@ -1,0 +1,26 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Teddy Bear Project",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "Sourabh Bagde",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "parcel": "^2.14.4",
+    "vite": "^6.3.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "browserList": [
+    "last 2 versions"
+  ]
+}
