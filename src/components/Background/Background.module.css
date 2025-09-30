@@ -1,4 +1,4 @@
-.background_container {
+.day_background {
   width: 100vw;
   height: 100vh;
   margin: 0 0;
@@ -7,4 +7,15 @@
   align-items: center;
   justify-content: center;
   background-color: #ffb343;
+}
+
+.sun {
+  background: radial-gradient(circle, #ffeb3b 0%, #fba62d 40%, #ec0936 100%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }

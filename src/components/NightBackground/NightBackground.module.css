@@ -8,3 +8,14 @@
   justify-content: center;
   background-color: #686868;
 }
+
+.moon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #f0e68c, #b0c4de);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}

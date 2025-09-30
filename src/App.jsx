@@ -8,7 +8,7 @@ const AppLayOut = () => {
   return (
     <div className="app">
       <Background />
-      <NightBackground />
+      {/* <NightBackground /> */}
     </div>
   );
 };
