@@ -1,7 +1,7 @@
-import React, { Children } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Background from './components/Background';
-import { createBrowserRouter, Outlet, RouterProvider } from 'react-router';
+import Background from './components/Background/Background';
+import { createBrowserRouter, RouterProvider } from 'react-router';
 
 const AppLayOut = () => {
   return (

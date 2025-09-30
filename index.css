@@ -1,0 +1,9 @@
+html,
+body {
+  /* to remove the default margin around the page */
+  margin: 0 0;
+  padding: 0 0;
+  /* to make sure the body takes the full height of the viewport and avoid unwanted scrolling */
+  overflow: hidden;
+  touch-action: none;
+}
