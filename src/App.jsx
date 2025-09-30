@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Background from './components/Background/Background';
+import NightBackground from './components/NightBackground/NightBackground';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 
 const AppLayOut = () => {
   return (
     <div className="app">
       <Background />
+      <NightBackground />
     </div>
   );
 };
