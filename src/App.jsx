@@ -1,0 +1,25 @@
+import React, { Children } from 'react';
+import ReactDOM from 'react-dom/client';
+import Background from './components/Background';
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router';
+
+const AppLayOut = () => {
+  return (
+    <div className="app">
+      <Background />
+    </div>
+  );
+};
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <AppLayOut />,
+  },
+]);
+const App = () => {
+  return <div>Hello World</div>;
+};
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<RouterProvider router={router} />);
