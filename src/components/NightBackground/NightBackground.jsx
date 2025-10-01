@@ -5,6 +5,7 @@ const NightBackground = () => {
   return (
     <div className={styles.night_background}>
       <div className={styles.moon}></div>
+      <div className={styles.teddy_sleeping}></div>
     </div>
   );
 };

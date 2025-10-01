@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffb343;
+  background-color: #ffc63c;
 }
 
 .sun {
@@ -18,4 +18,14 @@
   position: absolute;
   top: 50px;
   left: 50px;
+}
+
+.teddy_eating {
+  background-image: url('/assets/teddy_eat.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 100px;
 }

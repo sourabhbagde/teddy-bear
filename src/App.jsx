@@ -7,8 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router';
 const AppLayOut = () => {
   return (
     <div className="app">
-      <Background />
-      {/* <NightBackground /> */}
+      {/* <Background /> */}
+      <NightBackground />
     </div>
   );
 };
