@@ -12,3 +12,15 @@ body {
   overflow: hidden;
   touch-action: none;
 }
+
+.time_status {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
