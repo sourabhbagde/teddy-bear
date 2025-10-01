@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import Background from './components/Background/Background';
-import NightBackground from './components/NightBackground/NightBackground';
+import DayMode from './components/DayMode/DayMode';
+import NightMode from './components/NightMode/NightMode';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 
 const AppLayOut = () => {
@@ -15,7 +15,7 @@ const AppLayOut = () => {
       >
         Switch to {timeStatus ? 'Night' : 'Day'} Mode
       </button>
-      {timeStatus ? <Background /> : <NightBackground />}
+      {timeStatus ? <DayMode /> : <NightMode />}
     </div>
   );
 };
