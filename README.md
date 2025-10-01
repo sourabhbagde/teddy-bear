@@ -1,6 +1,7 @@
 # Teddy-Bear
+Click to view site :  https://teddybear.netlify.app/
 
-A simple React project using Vite.
+This is a practice mode for basic CSS stylings.
 
 ## Commands
 
