@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './NightBackground.module.css';
+import styles from './NightMode.module.css';
 
-const NightBackground = () => {
+const NightMode = () => {
   return (
     <div className={styles.night_background}>
       <div className={styles.moon}></div>
@@ -10,4 +10,4 @@ const NightBackground = () => {
   );
 };
 
-export default NightBackground;
+export default NightMode;

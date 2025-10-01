@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Background.module.css';
+import styles from './DayMode.module.css';
 
-const Background = () => {
+const DayMode = () => {
   return (
     <div className={styles.day_background}>
       <div className={styles.sun}></div>
@@ -10,4 +10,4 @@ const Background = () => {
   );
 };
 
-export default Background;
+export default DayMode;
