@@ -16,5 +16,4 @@ This is a practice mode for basic CSS stylings.
 - `App.jsx` – main React component
 
 ## Author
-
 Sourabh Bagde
