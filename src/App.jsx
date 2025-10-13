@@ -27,7 +27,7 @@ const router = createBrowserRouter([
   },
 ]);
 const App = () => {
-  return <div>Hello World</div>;
+  return <div></div>;
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
