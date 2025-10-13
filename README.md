@@ -1,7 +1,7 @@
 # Teddy-Bear
 Click to view site :  https://teddybear.netlify.app/
 
-This is a practice mode for basic CSS stylings.
+A small funplay with useState() in React.
 
 ## Commands
 
